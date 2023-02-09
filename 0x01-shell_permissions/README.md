@@ -6,3 +6,4 @@ touch create an empty file
 chmod u+x adds execute permission to the owner of the file hello
 ug+x,o+r hello adds execute permission to the owner and the group owner, and read permission to other users, to the file
 chmod ugo+x hello adds execution permission to the owner, the group owner and the other users, to the file hello
+chmod 007 hello, sets the permissions to the file hello as follows: owner no permission at all, group no permission at all and other users got all the permissions 
