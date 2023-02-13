@@ -15,7 +15,7 @@ sort | uniq -u : script that takes a list of words as input and prints only word
 grep root /etc/passwd: Display lines containing the pattern “root” from the file /etc/passwd
 grep -c bin/etc/passwd ; Display the number of lines that contain the pattern “bin” in the file /etc/passwd
 grep  "bin" /etc/passwd | wc -l : Display the number of lines that contain the pattern “bin” in the file /etc/passwd
-grep -A 3 root/etc/passwd ; Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+grep -A 3 "root" /etc/passwd ; Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
 grep -A 3 root/etc/passwd : Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
 grep ^ [[:alpha:]] /etc/passwd : Display all lines of the file /etc/ssh/sshd_config starting with a letter 
 tr 'A' 'Z' | 'c' 'e' : Replace all characters A and c from input to Z and e respectively.
