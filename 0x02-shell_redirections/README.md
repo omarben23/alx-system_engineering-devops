@@ -13,3 +13,4 @@ find . -type d ! -patch . -print | wc -l : script that counts the number of dire
  ls -t | head : script that displays the 10 newest files in the current directory.
 sort | uniq -u : script that takes a list of words as input and prints only words that appear exactly once.
 grep root /etc/passwd: Display lines containing the pattern “root” from the file /etc/passwd
+grep -c bin/etc/passwd ; Display the number of lines that contain the pattern “bin” in the file /etc/passwd
