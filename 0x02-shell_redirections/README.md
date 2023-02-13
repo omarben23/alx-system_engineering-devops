@@ -20,3 +20,4 @@ grep -A 3 root/etc/passwd : Display all the lines in the file /etc/passwd that d
 grep -i '^[a-z]' : Display all lines of the file /etc/ssh/sshd_config starting with a letter 
 tr 'A' 'Z' | tr 'c' 'e' : Replace all characters A and c from input to Z and e respectively.
 tr -d "Cc" : script that removes all letters c and C from input 
+ rev : script that reverse its input
